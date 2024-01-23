@@ -1,34 +1,44 @@
-import React, { Component } from 'react';
-import { render } from 'react-dom';
-import './ImgGallery.css';
-import 'lightgallery/css/lg-thumbnail.css';
-import LightGallery from 'lightgallery/react';
-import lgZoom from 'lightgallery/plugins/zoom';
-import lgVideo from 'lightgallery/plugins/video';
+import "./ImgGallery.css";
+import { useState } from 'react';
+import Carousel from 'react-bootstrap/Carousel';
+import galImage1 from './assets/image1.jpg';
+import galImage2 from './assets/image2.jpg';
+import galImage3 from './assets/image3.jpg';
 
-function Gallery() {
-    const onInit = () => {
-        console.log('lightGallery has been initialised!');
-    };
-    return (
-        <div className="App">
-            <LightGallery
-                onInit={onInit}
-                speed={500}
-                plugins={[lgThumbnail, lgZoom]}
-            >
-                <a href="img/img1.jpg">
-                    <img alt="img1" src="img\2023-04-09 16.51.10.jpg" />
-                </a>
-                <a href="img/img2.jpg">
-                    <img alt="img2" src="img/thumb2.jpg" />
-                </a>
-                
-            </LightGallery>
-        </div>
-    )
+function MyCarousel() {
+  const [index, setIndex] = useState(0);
+
+  const handleSelect = (selectedIndex) => {
+    setIndex(selectedIndex);
+  };
+
+  return (
+    <Carousel class="mx-5" activeIndex={index} onSelect={handleSelect}>
+      <Carousel.Item>
+        <img src={galImage1} text="Hello" height = "600px" width = "100%"/>
+        <Carousel.Caption>
+          <h3>First slide label</h3>
+          <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+        </Carousel.Caption>
+      </Carousel.Item>
+      <Carousel.Item>
+      <img src={galImage2} text="Hello" height = "600px" width = "100%"/>
+        <Carousel.Caption>
+          <h3>Second slide label</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        </Carousel.Caption>
+      </Carousel.Item>
+      <Carousel.Item>
+      <img src={galImage3} text="Hello" height = "600px" width = "100%"/>
+        <Carousel.Caption>
+          <h3>Third slide label</h3>
+          <p>
+            Praesent commodo cursus magna, vel scelerisque nisl consectetur.
+          </p>
+        </Carousel.Caption>
+      </Carousel.Item>
+    </Carousel>
+  );
 }
 
-
-
-export default Gallery;
+export default MyCarousel;
