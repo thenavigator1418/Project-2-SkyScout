@@ -1,0 +1,12 @@
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.map-container,
+.form-container {
+    width: 48%;
+    box-sizing: border-box;
+}

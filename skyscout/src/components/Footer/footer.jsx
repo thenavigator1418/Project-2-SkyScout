@@ -1,18 +1,19 @@
 import React from "react";
 import "./footer.css";
+import googlemap from "../Map/googlemap";
+import form from "../ContactForm"
 
 const Footer = () => {
     return (
-        <footer className="footer">
-            <div className="footer-padding">
-                <div className="footer-links">
-                    <div className="footer-links-s">
-
-                    </div>
-                </div>
+        <div className="footer-container">
+            <div className="map-container">
+                <Map />
             </div>
-        </footer>
+            <div className="form-container">
+                <ContactForm />
+            </div>
+        </div>
     );
-}
+};
 
 export default Footer;
