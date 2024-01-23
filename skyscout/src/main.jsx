@@ -7,7 +7,7 @@ import Body from './components/Body/body.jsx'
 import ContactForm from './components/ContactForm/form.jsx'
 import Footer from './components/Footer/footer.jsx'
 /* import MyComponent from './components/Map/googlemap.jsx' */
-{/* <MyComponent /> */}
+{/* <MyComponent /> */ }
 
 
 // Assembly of React components
@@ -15,7 +15,6 @@ ReactDOM.createRoot(document.getElementById('root')).render(
   <React.Fragment>
     <Navbar />
     <Body />
-    <ContactForm />
     <Footer />
 
   </React.Fragment>,
