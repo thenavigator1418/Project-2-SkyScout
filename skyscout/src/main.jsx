@@ -1,10 +1,19 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
-import App from './App.jsx'
 import './index.css'
+import Navbar from './components/Navbar/Navbar.jsx'
+import Body from './components/Body/body.jsx'
+import ContactForm from './components/ContactForm/form.jsx'
+import Footer from './components/Footer/footer.jsx'
+/* import MyComponent from './components/Map/googlemap.jsx' */
+{/* <MyComponent /> */}
 
+// Assembly of React components
 ReactDOM.createRoot(document.getElementById('root')).render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
+  <React.Fragment>
+    <Navbar />
+    <Body />
+    <ContactForm />
+    <Footer />
+  </React.Fragment>,
 )
