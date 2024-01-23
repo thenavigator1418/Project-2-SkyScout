@@ -1,0 +1,2 @@
+import "./ImgGallery.css";
+
