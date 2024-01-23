@@ -4,6 +4,7 @@ import './index.css'
 import Navbar from './components/Navbar/Navbar.jsx'
 import Gallery from './components/ImgGallery/ImgGallery.jsx'
 
+// Assembly of React components
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.Fragment>
     <Navbar />
