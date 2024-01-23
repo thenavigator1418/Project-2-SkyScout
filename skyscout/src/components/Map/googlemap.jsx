@@ -13,11 +13,13 @@ export default function gMap() {
                 mapId={'70d05cd5adf81da8'}>
                 <AdvancedMarker position={position} onClick={() => setOpen(true)}>
                     <Pin /></AdvancedMarker>
+
                 {open && (
                     <InfoWindow position={position} onCloseClick={() => setOpen(false)}>
                         <p>SkyScout<br></br>Catherine Wheel Opening<br>Norwich<br>NR3 3BQ</br></br></p>
                     </InfoWindow>
                 )}
+
             </Map>
         </div>
     </APIProvider>
