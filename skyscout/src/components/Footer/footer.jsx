@@ -1,6 +1,6 @@
 import React from "react";
 import "./footer.css";
-import googlemap from "../Map/googlemap";
+import Map from "../Map/googlemap";
 import ContactForm from "../ContactForm/form";
 
 const Footer = () => {
