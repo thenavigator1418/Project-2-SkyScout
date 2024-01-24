@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import emailjs from '@emailjs/browser'
 import './form.css';
 
 const ContactForm = () => {
@@ -25,7 +26,7 @@ const ContactForm = () => {
 
     const submitInfo = (e) => {
         e.preventDefault();
-        console.log({ firstName, lastName, message });
+        emailjs.sendForm('service_lzeo5c8', 'template_ikmp0ap', e.target, 'XDLBtRtCqLhPgFqB3');
     };
 
     return (
