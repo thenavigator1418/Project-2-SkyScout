@@ -1,5 +1,5 @@
 .contact-form {
-    max-width: 400px;
+    max-width: 350px;
     margin: 0 auto;
 }
 
@@ -13,12 +13,18 @@ h2 {
 
 .form-group {
     margin-bottom: 15px;
+    display: flex;
 }
 
 label {
     display: block;
     margin-bottom: 5px;
     color: #555;
+}
+
+input {
+    width: calc(50% - 5px);
+    margin-right: 10px;
 }
 
 input,
