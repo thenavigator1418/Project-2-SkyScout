@@ -49,6 +49,7 @@ textarea {
 
 #firstName,
 #lastName,
+#email,
 #message {
     color: #ffffff;
 }
