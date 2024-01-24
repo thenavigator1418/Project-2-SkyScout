@@ -1,46 +1,24 @@
-import React from 'react'
-import { GoogleMap, useJsApiLoader } from '@react-google-maps/api';
+import React, { useState } from 'react';
+import { APIProvider, Map, AdvancedMarker, Pin, InfoWindow } from '@vis.gl/react-google-maps';
 
-const containerStyle = {
-    width: '400px',
-    height: '400px'
-};
+export default function gMap() {
+    const position = { lat: 52.63, lng: 1.29 };
+    const [open, setOpen] = useState(false);
 
-const center = {
-    lat: -3.745,
-    lng: -38.523
-};
-
-function MyComponent() {
-    const { isLoaded } = useJsApiLoader({
-        id: 'google-map-script',
-        googleMapsApiKey: "AIzaSyBckPV6MTuYZXhkJGIVFo1up1j3a4zsfdw"
-    })
-
-    const [map, setMap] = React.useState(null)
-
-    const onLoad = React.useCallback(function callback(map) {
-
-        const bounds = new window.google.maps.LatLngBounds(center);
-        map.fitBounds(bounds);
-
-        setMap(map)
-    }, [])
-
-    const onUnmount = React.useCallback(function callback(map) {
-        setMap(null)
-    }, [])
-
-    return isLoaded ? (
-        <GoogleMap
-            mapContainerStyle={containerStyle}
-            center={center}
-            zoom={10}
-            onLoad={onLoad}
-            onUnmount={onUnmount}
-        >
-        </GoogleMap>
-    ) : <></>
+    return <APIProvider apiKey='AIzaSyBckPV6MTuYZXhkJGIVFo1up1j3a4zsfdw'>
+        <div style={{ height: "270px", width: "270px" }}>
+            <Map
+                zoom={15}
+                center={position}
+                mapId={'70d05cd5adf81da8'}>
+                <AdvancedMarker position={position} onClick={() => setOpen(true)}>
+                    <Pin /></AdvancedMarker>
+                {open && (
+                    <InfoWindow position={position} onCloseClick={() => setOpen(false)}>
+                        <p>SkyScout<br></br>Catherine Wheel Opening<br>Norwich<br>NR3 3BQ</br></br></p>
+                    </InfoWindow>
+                )}
+            </Map>
+        </div>
+    </APIProvider>
 }
-
-export default React.memo(MyComponent)
