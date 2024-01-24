@@ -52,77 +52,77 @@ function MyCarousel() {
       <Carousel.Item>
         <img src={galImage4} text="Hello" height = "600px" width = "100%"/>
         <Carousel.Caption>
-          <h3>First slide label</h3>
+          <h3>Fourth slide label</h3>
           <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
         <img src={galImage5} text="Hello" height = "600px" width = "100%"/>
         <Carousel.Caption>
-          <h3>First slide label</h3>
+          <h3>Fifth slide label</h3>
           <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
         <img src={galImage6} text="Hello" height = "600px" width = "100%"/>
         <Carousel.Caption>
-          <h3>First slide label</h3>
+          <h3>Sixth slide label</h3>
           <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
         <img src={galImage7} text="Hello" height = "600px" width = "100%"/>
         <Carousel.Caption>
-          <h3>First slide label</h3>
+          <h3>Seventh slide label</h3>
           <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
         <img src={galImage8} text="Hello" height = "600px" width = "100%"/>
         <Carousel.Caption>
-          <h3>First slide label</h3>
+          <h3>Eighth slide label</h3>
           <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
         <img src={galImage9} text="Hello" height = "600px" width = "100%"/>
         <Carousel.Caption>
-          <h3>First slide label</h3>
+          <h3>Ninth slide label</h3>
           <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
         <img src={galImage10} text="Hello" height = "600px" width = "100%"/>
         <Carousel.Caption>
-          <h3>First slide label</h3>
+          <h3>Tenth slide label</h3>
           <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
         <img src={galImage11} text="Hello" height = "600px" width = "100%"/>
         <Carousel.Caption>
-          <h3>First slide label</h3>
+          <h3>Eleventh slide label</h3>
           <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
         <img src={galImage12} text="Hello" height = "600px" width = "100%"/>
         <Carousel.Caption>
-          <h3>First slide label</h3>
+          <h3>Twelfth slide label</h3>
           <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
         <img src={galImage13} text="Hello" height = "600px" width = "100%"/>
         <Carousel.Caption>
-          <h3>First slide label</h3>
+          <h3>Thirteenth slide label</h3>
           <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
         <img src={galImage14} text="Hello" height = "600px" width = "100%"/>
         <Carousel.Caption>
-          <h3>First slide label</h3>
+          <h3>Fourteenth slide label</h3>
           <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
         </Carousel.Caption>
       </Carousel.Item>

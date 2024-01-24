@@ -1,5 +1,17 @@
 .main-div {
     height: 700px;
-    background-color: black;
-    color: white;
+    background-color: rgb(255, 255, 255);
+    color: rgb(7, 0, 0);
+    margin-bottom: -130px;
+}
+
+.main-div h2 {
+    padding-top: 20px;
+    margin-bottom: 30px;
+}
+
+
+.main-div p {
+    margin-left: 50px;
+    margin-right: 50px;
 }

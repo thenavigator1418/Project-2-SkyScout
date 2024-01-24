@@ -8,11 +8,12 @@
 }
 
 :root {
-	--mainColor: #29335c;
+	--mainColor: rgb(17, 84, 147);
 	--mainColorLight: #5767aa;
 	--secondaryColor: #db2b39;
 	--textColor: #eee;
 }
+
 
 header {
 	display: flex;
@@ -87,3 +88,4 @@ nav {
 		font-size: 1.5rem;
 	}
 }
+

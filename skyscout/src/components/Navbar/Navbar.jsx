@@ -14,12 +14,12 @@ function Navbar() {
 
 	return (
 		<header>
-			<h3>LOGO</h3>
+			<h3><img src="/public/img/skyscout.png" height ="50px"></img></h3>
 			<nav ref={navRef}>
 				<a href="/#">Home</a>
-				<a href="/#">My work</a>
-				<a href="/#">Blog</a>
-				<a href="/#">About me</a>
+				<a href="/#">About</a>
+				<a href="/#">Portfolio</a>
+				<a href="/#">Contact</a>
 				<button
 					className="nav-btn nav-close-btn"
 					onClick={showNavbar}>
