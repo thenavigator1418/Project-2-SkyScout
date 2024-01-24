@@ -5,6 +5,7 @@ import galImage1 from './assets/image1.jpg';
 import galImage2 from './assets/image2.jpg';
 import galImage3 from './assets/image3.jpg';
 
+
 function MyCarousel() {
   const [index, setIndex] = useState(0);
 
