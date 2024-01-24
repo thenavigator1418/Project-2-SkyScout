@@ -30,8 +30,8 @@ const ContactForm = () => {
 
     return (
         <div className="contact-form">
-            <h2>Enquiries</h2>
-            <p className="subheading">Lorem ipsum</p>
+            <h2>CONTACT US</h2>
+            <p className="subheading">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do.</p>
             <form onSubmit={submitInfo}>
                 <div className="form-group">
                     <input

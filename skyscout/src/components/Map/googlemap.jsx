@@ -6,7 +6,7 @@ export default function gMap() {
     const [open, setOpen] = useState(false);
 
     return <APIProvider apiKey='AIzaSyBckPV6MTuYZXhkJGIVFo1up1j3a4zsfdw'>
-        <div style={{ height: "300px", width: "300px" }}>
+        <div style={{ height: "270px", width: "270px" }}>
             <Map
                 zoom={15}
                 center={position}
