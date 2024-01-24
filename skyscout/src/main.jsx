@@ -2,20 +2,11 @@ import React from 'react'
 import ReactDOM from 'react-dom/client'
 import './index.css'
 import 'bootstrap/dist/css/bootstrap.min.css';
-
+// React components
 import Navbar from './components/Navbar/Navbar.jsx'
 import Body from './components/Body/body.jsx'
-
 import MyCarousel from './components/ImgGallery/ImgGallery.jsx'
-
-/* import ContactForm from './components/ContactForm/form.jsx'
-import Footer from './components/Footer/footer.jsx' */
-=======
 import Footer from './components/Footer/footer.jsx'
-
-/* import MyComponent from './components/Map/googlemap.jsx' */
-{/* <MyComponent /> */ }
-
 
 // Assembly of React components
 ReactDOM.createRoot(document.getElementById('root')).render(
@@ -23,9 +14,6 @@ ReactDOM.createRoot(document.getElementById('root')).render(
     <Navbar />
     <Body />
     <MyCarousel />
-{/*     <ContactForm />
-    <Footer /> */}
     <Footer />
-
   </React.Fragment>,
 )
