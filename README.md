@@ -7,6 +7,8 @@ The project website is available on this link via Netlify. To access and install
 ## Usage
 <a href="https://ibb.co/GJSH87P"><img src="https://i.ibb.co/LP7NcSp/skyscoutcomplete1.jpg" alt="skyscoutcomplete1" border="0"></a>
 
+Deployed application link: https://deft-dasik-36d652.netlify.app/
+
 As this is a regular website, no special usage instructions should be required. Just click the deployed URL and browse the website as you wish! Please note the screenshots of this project will auto-delete after a two weeks. If you require a new one, please let me know.
 
 ## Contributing
