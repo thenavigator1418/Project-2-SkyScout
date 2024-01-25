@@ -1,4 +1,4 @@
-# Assignment-7-DailyPlanner
+# Project-2-SkyScout
 Final group project to create a live application for a real client using React.
 
 ## Installation
