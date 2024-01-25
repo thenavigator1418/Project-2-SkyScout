@@ -26,7 +26,7 @@ const ContactForm = () => {
 
     const submitInfo = (e) => {
         e.preventDefault();
-        emailjs.sendForm('service_lzeo5c8', 'template_ikmp0ap', e.target, 'XDLBtRtCqLhPgFqB3');
+        emailjs.sendForm('service_tdz45wl', 'template_kr5xkfj', e.target, 'XDLBtRtCqLhPgFqB3');
     };
 
     return (
